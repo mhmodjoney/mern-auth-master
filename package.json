@@ -4,13 +4,14 @@
   "description": "Mern Auth Example",
   "main": "server.js",
   "scripts": {
+    "build": "babel src -d lib",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "",
+  "author": "mahmoud jouny",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
