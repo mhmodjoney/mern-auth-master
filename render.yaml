@@ -1,0 +1,11 @@
+services:
+  - name: mern-auth
+    env:
+      - key: NODE_ENV
+        value: production
+    buildCommand: |
+      cd client
+      npm install
+      npm run build
+      cd ..
+    startCommand: npm run dev
