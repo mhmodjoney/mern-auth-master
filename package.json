@@ -4,7 +4,7 @@
   "description": "Mern Auth Example",
   "main": "server.js",
   "scripts": {
-    "build": "npm install && cd client && npm install && cd .. ",
+    "build": "npm install  ",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
